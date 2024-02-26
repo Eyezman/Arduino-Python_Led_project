@@ -66,7 +66,7 @@ void loop() {
     }
   
 
-   else if (msg = "exit"){
+   else if (msg == "exit"){
    lcd.setCursor(1, 0);
    lcd.clear();
    lcd.print("Exiting");
